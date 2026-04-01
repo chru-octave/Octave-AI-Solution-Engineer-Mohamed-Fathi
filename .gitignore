@@ -1,5 +1,10 @@
 # Project-specific
 Emails/
+Emails Round/
+Emails Round.zip
+
+# Claude Code internals (worktrees, memory, session state)
+.claude/
 
 # OS generated files
 .DS_Store
@@ -12,6 +17,7 @@ Desktop.ini
 # Editor directories and files
 .vscode/
 .idea/
+.vs/
 *.sublime-project
 *.sublime-workspace
 
@@ -34,6 +40,24 @@ venv/
 # Node
 node_modules/
 npm-debug.log*
+frontend/dist/
+
+# .NET
+bin/
+obj/
+*.csproj.user
+*.user
+*.db
+*.db-shm
+*.db-wal
+uploads/
+logs/
+InsuranceExtraction.API/Properties/launchSettings.json
+
+# User secrets & local overrides
+**/secrets.json
+**/appsettings.Development.json
+**/appsettings.Local.json
 
 # Logs
 *.log
